@@ -138,6 +138,7 @@
 		A3270B0C255A6AD800A4C370 /* a */ = {
 			isa = PBXGroup;
 			children = (
+				A3270B0E255A6B0A00A4C370 /* test2.swift */,
 			);
 			path = a;
 			sourceTree = "<group>";
@@ -145,7 +146,6 @@
 		A3270B0D255A6AE900A4C370 /* b */ = {
 			isa = PBXGroup;
 			children = (
-				A3270B0E255A6B0A00A4C370 /* test2.swift */,
 			);
 			path = b;
 			sourceTree = "<group>";

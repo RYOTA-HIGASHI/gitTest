@@ -16,6 +16,7 @@
 		A3270AEC255A68DA00A4C370 /* gitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3270AEB255A68DA00A4C370 /* gitTestTests.swift */; };
 		A3270AF7255A68DA00A4C370 /* gitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3270AF6255A68DA00A4C370 /* gitTestUITests.swift */; };
 		A3270B08255A6A1E00A4C370 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3270B07255A6A1E00A4C370 /* testViewController.swift */; };
+		A3270B0F255A6B0A00A4C370 /* test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3270B0E255A6B0A00A4C370 /* test2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A3270AF6255A68DA00A4C370 /* gitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitTestUITests.swift; sourceTree = "<group>"; };
 		A3270AF8255A68DA00A4C370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3270B07255A6A1E00A4C370 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		A3270B0E255A6B0A00A4C370 /* test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,8 @@
 		A3270AC8255A68D700A4C370 = {
 			isa = PBXGroup;
 			children = (
+				A3270B0D255A6AE900A4C370 /* b */,
+				A3270B0C255A6AD800A4C370 /* a */,
 				A3270AD3255A68D700A4C370 /* gitTest */,
 				A3270AEA255A68DA00A4C370 /* gitTestTests */,
 				A3270AF5255A68DA00A4C370 /* gitTestUITests */,
@@ -129,6 +133,21 @@
 				A3270AF8255A68DA00A4C370 /* Info.plist */,
 			);
 			path = gitTestUITests;
+			sourceTree = "<group>";
+		};
+		A3270B0C255A6AD800A4C370 /* a */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = a;
+			sourceTree = "<group>";
+		};
+		A3270B0D255A6AE900A4C370 /* b */ = {
+			isa = PBXGroup;
+			children = (
+				A3270B0E255A6B0A00A4C370 /* test2.swift */,
+			);
+			path = b;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +283,7 @@
 				A3270AD9255A68D700A4C370 /* ViewController.swift in Sources */,
 				A3270AD5255A68D700A4C370 /* AppDelegate.swift in Sources */,
 				A3270B08255A6A1E00A4C370 /* testViewController.swift in Sources */,
+				A3270B0F255A6B0A00A4C370 /* test2.swift in Sources */,
 				A3270AD7255A68D700A4C370 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
